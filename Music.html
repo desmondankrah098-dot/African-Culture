@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>African Culture - Music</title>
+
+<style>
+/* ===== GENERAL STYLE ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6efe6;
+    color: #3b1f0f;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(to right, #8b0000, #d35400);
+    color: white;
+    text-align: center;
+    padding: 2.5em 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background: #b03a2e;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #8b0000;
+}
+
+/* ===== MAIN SECTION ===== */
+section {
+    max-width: 1200px;
+    margin: 3em auto;
+    padding: 0 1em;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section p {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* ===== PINTEREST STYLE GRID ===== */
+.music-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ===== MUSIC CARDS ===== */
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img,
+.card video {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    color: #8b0000;
+}
+
+.card-content p {
+    font-size: 0.95em;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>African Music</h1>
+    <p>Rhythm, Storytelling, and Cultural Expression</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="music.html">Music</a>
+    <a href="art.html">Art</a>
+    <a href="food.html">Food</a>
+</nav>
+
+<section>
+    <h2>Sounds of Africa</h2>
+    <p>
+        African music is built on rhythm, drums, storytelling, and spiritual meaning.
+        It plays an important role in ceremonies, celebrations, and daily life.
+    </p>
+
+    <div class="music-grid">
+
+        <div class="card">
+            <img src="picture 4.jpg" alt="Traditional African Drums">
+            <div class="card-content">
+                <h3>Traditional Drumming</h3>
+                <p>
+                   Prominent People Like FALI KUTI >bold
+                    Drums are the heartbeat of African music.
+                    They are used to communicate messages, celebrate events,
+                    and connect with ancestors.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <video controls>
+                <source src="video 2.mp4" type="video/mp4">
+            </video>
+            <div class= "card-content">
+                <h3>Dance & Rhythm</h3>
+                <p>
+                    Music and dance go together in African culture.
+                    Movements express emotions, history, and unity.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <video controls>
+                <source src="video 1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="card-content">
+                <h3>Modern Afrobeat</h3>
+                <p>
+                    Afrobeat combines traditional African rhythms
+                    with modern sounds, influencing global music today.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 African Culture Website</p>
+</footer>
+
+</body>
+</html>
